@@ -1,5 +1,7 @@
 import PrimaryNav from "./PrimaryNav"
 import SecondaryNav from "./SecondaryNav"
+
+
 const Navbar = () => {
   return (
       <div className=" w-full bg-[#f3f6fa] border border-[#111111] m-auto ">

@@ -1,7 +1,8 @@
+import tourImage from '../'
 
 const TourImage = () => {
   return (
-    <div>TourImage</div>
+    <div>  <img src='' alt="tourimage"/>  </div>
   )
 }
 
