@@ -4,10 +4,8 @@ import TourImage from "./TourImage"
 
 const HeroSection = () => {
   return (
-      <div className=" w-full  border border-[#212121]  ">
-          
-          <div className=" max-w-[1344px] grid grid-cols-2 ">
-            
+      <div className=" relative w-full  border border-[#212121] ">
+          <div className=" relative max-w-[1344px] grid grid-cols-2 ">
           <FormArea/>
           <TourImage/>
           </div>
