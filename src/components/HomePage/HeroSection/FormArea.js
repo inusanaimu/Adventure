@@ -7,7 +7,7 @@ const MainForm = () => {
 
 const FormArea = () => {
   return (
-    <div className=" relative " >
+    <div className=" relative  " >
       <div className=" mb-4 " >.</div>
 
       <MainForm/>

@@ -1,8 +1,13 @@
 
 
-const TourCard = () => {
+const TourCard = (props) => {
+ const image =props.children
+
+
   return (
-    <div>TourCard</div>
+    <div className=' m-auto h-full w-full text-center ' >
+      <img  className=" m-auto w-full " alt={`destination ${image}`} src={image} />
+    </div>
   )
 }
 

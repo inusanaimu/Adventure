@@ -4,7 +4,7 @@ import TourImage from "./TourImage"
 
 const HeroSection = () => {
   return (
-      <div className=" mb-24 relative w-full  border border-[#212121] ">
+      <div className=" bg-[#f3f6fa] mb-[110px] relative w-full   ">
           <div className="  max-w-[1344px] grid grid-cols-2 ">
           <FormArea/>
           <TourImage/>

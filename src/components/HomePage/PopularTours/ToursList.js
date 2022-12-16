@@ -2,9 +2,9 @@ import TourCard from './TourCard'
 
 const ToursList = (props) => {
   return (
-    <div>
-      {props.map((item) => {
-  return( <TourCard Tour={item} /> )
+    <div className=' grid grid-cols-3 gap-[50px] justify-between '>
+      {props.popularTourList.map((item) => {
+        return(<TourCard key={item}>{item}</TourCard>)
 })}
     </div>
   )
