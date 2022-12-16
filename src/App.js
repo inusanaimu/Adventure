@@ -1,9 +1,9 @@
-import './App.css';
+import Navbar from "./components/Layout/Navbar/Navbar";
 
 function App() {
   return (
     <div className=" text-center text-3xl ">
-      Hello world
+      <Navbar/>
     </div>
   );
 }
