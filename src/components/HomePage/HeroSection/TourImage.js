@@ -1,8 +1,8 @@
-import tourImage from '../'
+import tourImage from '../../../assets(images)/1 MainHero/MainHero.svg'
 
 const TourImage = () => {
   return (
-    <div>  <img src='' alt="tourimage"/>  </div>
+    <div>  <img src={tourImage} alt="tourimage"/>  </div>
   )
 }
 
