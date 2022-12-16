@@ -1,8 +1,12 @@
+import TourCard from './TourCard'
 
-
-const ToursList = () => {
+const ToursList = (props) => {
   return (
-    <div>ToursList</div>
+    <div>
+      {props.map((item) => {
+  return( <TourCard Tour={item} /> )
+})}
+    </div>
   )
 }
 

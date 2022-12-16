@@ -1,7 +1,7 @@
 
 const MainForm = () => {
   return (
-    <div className=" border h-[200px] " ></div>
+    <div className=" border h-[300px] " ></div>
   )
 }
 
