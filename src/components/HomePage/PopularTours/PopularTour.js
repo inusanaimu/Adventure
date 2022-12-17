@@ -12,7 +12,7 @@ const popularTourList = [Popular1, Popular2, Popular3, Popular4, Popular5, Popul
 
 const PopularTour = () => {
     return (
-      <div className=''>
+      <div className='my-14 max-w-[1344px] m-auto'>
             <div className=' mb-4 flex justify-between'>
                 <h1 className=' text-left text-4xl font-medium  ' >PopularTours</h1>
                 <h4 className=' text-left text-xl font-normal  ' >VIEW ALL-------</h4>
